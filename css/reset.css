@@ -28,7 +28,7 @@ a {
 /* common rules */
 .container {
   /* apridboti tik maximalu ploti */
-  max-width: 800px;
+  max-width: 1200px;
   /* skaiciuoti parastes automatiskai vienodai is kaires ir is desines */
   margin: 0 auto;
 }

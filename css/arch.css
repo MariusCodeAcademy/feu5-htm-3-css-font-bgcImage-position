@@ -63,3 +63,30 @@ h1 {
   left: 0;
   /* right: 0; */
 }
+
+/* row 2 with bg */
+.img-box-bg {
+  border: 1px solid #000;
+  width: 256px;
+  height: 170px;
+  display: inline-block;
+  background: url('../img/house5.jpg') no-repeat;
+  background-size: cover;
+}
+.img-title-bg {
+  font-weight: normal;
+  background-color: #333;
+  color: white;
+  padding: 8px 16px;
+  display: inline-block;
+}
+/* patys paveiksleliai atitinkamai dezutei */
+#h2 {
+  background-image: url('../img/house4.jpg');
+}
+#h3 {
+  background-image: url('../img/house3.jpg');
+}
+#h4 {
+  background-image: url('../img/house2.jpg');
+}
