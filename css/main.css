@@ -1,4 +1,5 @@
 body {
+  font-family: 'Roboto', sans-serif;
 }
 
 h2 {
@@ -15,6 +16,13 @@ h2 {
 /* article */
 
 .bg-article {
+  /* margin gali buti neigiamas  */
+  margin-top: -50px;
+  /* pagal laikrodzio rodykle nuo 12 */
+  padding: 50px 100px 10px 150px;
+  /* padding top, x-asis, bottom */
+  padding: 10px 75px 100px;
+  /* 2 vertes, top-bottom, left-right */
   padding: 100px 25px;
   /* sios savybes ieina i sutrumpinima */
   background-color: rgba(123, 123, 123, 0.5);
