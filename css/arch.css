@@ -33,6 +33,12 @@ h1 {
 
 /* Projects section  */
 
+.section-title {
+  border-bottom: 1px solid #f1f1f1;
+  padding-bottom: 14px;
+  font-weight: normal;
+}
+
 .projects {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -96,4 +102,30 @@ h1 {
 .img-box {
   vertical-align: top;
   margin-bottom: 10px;
+}
+
+/* About section ============================ */
+
+p {
+  line-height: 1.5;
+}
+
+.flex-people-container {
+  /* tevinis flex elementas */
+  /* outline: 2px solid tomato; */
+  display: flex;
+  /* tarpelis tarp flex itemu */
+  gap: 15px;
+}
+
+.flex-item {
+  /* flexinamas itemas */
+  /* border: 1px solid #000; */
+  max-width: 25%;
+}
+
+.flex-item img {
+  height: 165px;
+  width: 100%;
+  object-fit: cover;
 }
