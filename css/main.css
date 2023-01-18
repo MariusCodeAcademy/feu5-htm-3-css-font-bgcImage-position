@@ -1,3 +1,32 @@
 body {
-  background-color: peru;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.container {
+  /* apridboti tik maximalu ploti */
+  max-width: 800px;
+  /* skaiciuoti parastes automatiskai vienodai is kaires ir is desines */
+  margin: 0 auto;
+}
+
+/* article */
+
+.bg-article {
+  padding: 100px 25px;
+  /* sios savybes ieina i sutrumpinima */
+  background-color: rgba(123, 123, 123, 0.5);
+  background-image: url('hero.jpg');
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  /* sutrimpinimas shorthand */
+  /* ../ - viena direktorija i virsu (relityvus)  */
+  /* relityvus kelias ../img/hero.jpg */
+  /* ./ - rodo i dabartine direktorija (relityvus) */
+  /* / - eina i root direktorija (absoliutus) */
+  /* /img/hero.jpg absoliutus */
+  background: tomato url('../img/hero.jpg') no-repeat center center;
+  background-size: cover;
 }
