@@ -40,7 +40,7 @@ h1 {
 
 .img-box {
   border: 1px solid #000;
-  width: 256px;
+  width: 245px;
   height: 170px;
   position: relative;
   display: inline-block;
@@ -67,7 +67,7 @@ h1 {
 /* row 2 with bg */
 .img-box-bg {
   border: 1px solid #000;
-  width: 256px;
+  width: 245px;
   height: 170px;
   display: inline-block;
   background: url('../img/house5.jpg') no-repeat;
@@ -89,4 +89,11 @@ h1 {
 }
 #h4 {
   background-image: url('../img/house2.jpg');
+}
+
+/* islygiuoti vertikaliai */
+.img-box-bg,
+.img-box {
+  vertical-align: top;
+  margin-bottom: 10px;
 }
