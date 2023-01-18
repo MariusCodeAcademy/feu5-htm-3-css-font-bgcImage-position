@@ -128,4 +128,26 @@ p {
   height: 165px;
   width: 100%;
   object-fit: cover;
+  filter: grayscale(75%);
+}
+
+.btn-gray {
+  border: none;
+  background-color: rgb(208, 208, 208);
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 16px;
+  /* text-transform: capitalize; */
+}
+.btn-gray:hover {
+  background-color: rgb(161, 161, 161);
+}
+
+.btn-gray:active {
+  outline: 2px solid black;
+}
+/* taisykle pirmai raidei */
+.btn-gray::first-letter {
+  text-transform: uppercase;
 }
